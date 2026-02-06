@@ -478,3 +478,12 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.footer-section ul li a {
+  color: white;             /* ทำให้ตัวอักษรเป็นสีขาว */
+  text-decoration: none;    /* ลบเส้นใต้ */
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #FFD700;           /* เมื่อชี้แล้วจะเปลี่ยนเป็นสีทอง */
+}
