@@ -47,7 +47,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: white
+  color: white;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -70,7 +70,7 @@ nav ul li a.active {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white
+  color: white;
 }
 
 .hero-content h2 {
@@ -128,7 +128,7 @@ nav ul li a.active {
 /* ========== About Section ========== */
 .about {
   padding: 80px 0;
-  background-color: white
+  background-color: white;
 }
 
 .content-wrapper {
@@ -158,7 +158,6 @@ nav ul li a.active {
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
-
 .content-image img:hover {
   transform: scale(1.05);
 }
@@ -173,16 +172,16 @@ nav ul li a.active {
   align-items: center;
   gap: 50px;
   margin-bottom: 60px;
-  background-color: white
+  background-color: white;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 .attraction-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .attraction-item.reverse {
@@ -196,7 +195,7 @@ nav ul li a.active {
 .attraction-image img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .attraction-content {
@@ -211,6 +210,9 @@ nav ul li a.active {
 
 .attraction-content p {
   font-size: 16px;
+  line-height: 1.6;
+}
+/* ต่อจากส่วน Attraction Content */
   line-height: 1.8;
   margin-bottom: 20px;
   text-align: justify;
@@ -233,14 +235,13 @@ nav ul li a.active {
 /* ========== Detail Page Styles ========== */
 .detail-hero {
   background: linear-gradient(rgba(244, 164, 96, 0.8), rgba(210, 105, 30, 0.8)),
-  url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?
-  w=1600&h=400&fit=crop') center/cover;
+  url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1600&h=400&fit=crop') center/cover;
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white
+  color: white;
 }
 
 .detail-hero h2 {
@@ -250,7 +251,7 @@ nav ul li a.active {
 
 .detail-content {
   padding: 80px 0;
-  background-color: white
+  background-color: white;
 }
 
 .info-box {
@@ -318,13 +319,12 @@ nav ul li a.active {
   display: flex;
   gap: 50px;
 }
-
 .contact-info {
   flex: 1;
-  background-color: white
+  background-color: white;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info h3 {
@@ -341,10 +341,10 @@ nav ul li a.active {
 
 .contact-form {
   flex: 1;
-  background-color: white
+  background-color: white;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
@@ -373,7 +373,6 @@ nav ul li a.active {
   outline: none;
   border-color: #F4A460;
 }
-
 .form-group textarea {
   resize: vertical;
   min-height: 150px;
@@ -383,7 +382,7 @@ nav ul li a.active {
   width: 100%;
   padding: 15px;
   background: linear-gradient(135deg, #F4A460 0%, #D2691E 100%);
-  color: white
+  color: white;
   border: none;
   border-radius: 5px;
   font-size: 18px;
@@ -394,13 +393,13 @@ nav ul li a.active {
 
 .submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* ========== Footer ========== */
 footer {
   background: linear-gradient(135deg, #8B4513 0%, #654321 100%);
-  color: white
+  color: white;
   padding: 50px 0 20px;
 }
 
@@ -429,7 +428,7 @@ footer {
 }
 
 .footer-section ul li a {
-  color: white
+  color: white;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -441,7 +440,7 @@ footer {
 .footer-bottom {
   text-align: center;
   padding-top: 20px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* ========== Responsive Design ========== */
@@ -478,6 +477,4 @@ footer {
   .gallery {
     grid-template-columns: 1fr;
   }
-header div nav ul li a{
-   color: white;
-  }
+}
